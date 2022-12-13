@@ -212,6 +212,8 @@ footer a{
         display: block;
     }
 
+    /* Navigation Bar */
+
     .btn-close {
         color: white !important;
         font-size: 40px;
@@ -244,9 +246,11 @@ footer a{
         display: flex;
         flex-direction: column;
         text-align: center;
-        border-top: 1px solid lightgrey; 
+        border-top: 1px solid grey; 
         align-items: center;
         justify-content: space-around;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     #nav-buttons a{
         margin: 50px;
@@ -276,4 +280,28 @@ footer a{
         font-size: 40px;
         color: white;
     }
+
+    /* Banner */
+
+    header {
+        border-bottom-left-radius: 300px;
+        padding: 0;
+        height: 80vh;
+        padding: 50px 30px;
+    }
+    #header-description {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #header-description h6{
+        font-size: 2.5em;
+    }
+
+    #header-description a{
+        font-size: 2.5em;
+        width: 300px;
+        margin-top: 100px;
+    }
+
 }
