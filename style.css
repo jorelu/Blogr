@@ -7,7 +7,7 @@ body {
 }
 
 .text-lightgrey {
-    color: rgb(179, 179, 179);
+    color: rgb(237, 236, 236);
 }
 
 #section-header {
@@ -318,12 +318,14 @@ footer a{
         flex-direction: column;
         text-align:  center;
         justify-content: center;
+        height: auto;
     }
 
    #section-1-img-mobile {
         display: block !important;
         min-width: 800px;
-        margin-top: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
    }
 
    #section-1-img {
@@ -347,23 +349,30 @@ footer a{
 
     #section-2 {
         padding: 0;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
     #section-2-img-mobile {
         display: block !important;
-        height: 60%;
         z-index: 2;
+        position: absolute;
+        height: 50%;
     }
 
     #section-2-body-1 {
-        margin-top: 1500px;
-        height: 1500px;
-        position: absolute;
+        height: 300vh;
+        padding: 0;
+        display: block;
+        padding: 500px 30px 200px;
+        margin-top: 50%;
+    }
+
+    #section-2-body-1-content-1 {
         text-align: center;
+        padding: 500px 0 0 0;
     }
 
     #section-2-body-1-content-1 h1 {
