@@ -103,7 +103,7 @@ nav li {
     color: #3a3b59;
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1.50px;
     width: 100%;
     padding: 15%;
 }
@@ -139,7 +139,7 @@ nav li {
     flex-direction: row-reverse;
     width: 100%;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1.50px;
 }
 
 #section-2-body-1-content-1 {
@@ -164,7 +164,7 @@ nav li {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1.50px;
     width: 100%;
     padding: 15%;
 }
@@ -295,11 +295,11 @@ footer a{
     }
 
     #header-description h6{
-        font-size: 2.5em;
+        font-size: 50px;
     }
 
     #header-description a{
-        font-size: 2.5em;
+        font-size: 50px;
         width: 300px;
         margin-top: 100px;
     }
@@ -334,15 +334,15 @@ footer a{
 
    #section-1-body-1 {
         width: 100%;
-        font-size: 2.5em;
-        padding: 0;
-        display: flex;
-        justify-content: center;
+        font-size: 50px;
+        padding: 0 50px;
+        display: block;
     }
 
     #section-1-body-1 h3{
         width: 100%;
         font-size: 50px;
+        margin-top: 50px;
     }
 
     /* Section 2 */
@@ -353,6 +353,8 @@ footer a{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: auto;
+        margin-top: 200px;
     }
 
     #section-2-img-mobile {
@@ -363,10 +365,10 @@ footer a{
     }
 
     #section-2-body-1 {
-        height: 300vh;
+        height: 80vh;
         padding: 0;
         display: block;
-        padding: 500px 30px 200px;
+        padding: 700px 100px 400px;
         margin-top: 50%;
     }
 
@@ -380,9 +382,44 @@ footer a{
     }
 
     #section-2-body-1-content-1 p {
-        font-size: 2.5em;
+        font-size: 50px;
+        margin-top: 50px;
     }
 
     /* Section 3 */
+
+    #section-3-img-mobile {
+        display: block !important;
+        width: 100%;
+   }
+
+   #section-3-img {
+        display: none !important;
+    }
+
+    #section-3 {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 500px;
+        text-align: center;
+    }
+
+    #section-3-body-1 {
+        padding: 0 50px;
+        display: block;
+    }
+
+    #section-3-body-1 h2 {
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    #section-3-body-1 p {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
     /* Footer */
 }
