@@ -9,7 +9,11 @@ body {
 .text-lightgrey {
     color: rgb(237, 236, 236);
 }
-
+#section-1-img-mobile
+,#section-2-img-mobile
+,#section-3-img-mobile {
+    display: none
+}
 #section-header {
     height: 100vh
 }
