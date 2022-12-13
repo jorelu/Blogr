@@ -269,4 +269,11 @@ footer a{
         font-size: 40px;
         padding: 50px;
     }
+    .navbar-brand img {
+        height: 80px;
+    }
+    .navbar-toggler-icon {
+        font-size: 40px;
+        color: white;
+    }
 }
