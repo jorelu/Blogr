@@ -20,9 +20,10 @@ body {
 
 header {
     background-image: url("images/bg-pattern-intro-desktop.svg"), linear-gradient(#fe866e,#fe5e60);
-    background-size: cover;
+    background-size: 250%;
     border-bottom-left-radius: 100px;
     padding: 30px 15%;
+    background-position: 25% 52%;
 }
 
 nav {
@@ -260,6 +261,14 @@ footer a{
     }
     #nav-buttons a{
         margin: 50px;
+    }
+
+    #start-for-free {
+        font-size: 40px !important; 
+    }
+    
+    #learn-more {
+        font-size: 40px !important; 
     }
     
     #signup {
